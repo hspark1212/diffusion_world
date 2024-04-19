@@ -1,0 +1,15 @@
+# Develop
+__pycache__/
+demo*
+old*
+
+# Directory
+data/
+lightning_logs/
+results/
+tmp/
+
+# file format
+*.log
+*.sh
+
