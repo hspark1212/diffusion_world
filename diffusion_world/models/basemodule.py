@@ -1,8 +1,8 @@
 import torch
 from pytorch_lightning import LightningModule
 
-from minimal_diffusion.models.unet import UNet
-from minimal_diffusion.utils import save2img, make_gif
+from diffusion_world.models.unet import UNet
+from diffusion_world.utils import save2img, make_gif
 
 
 class BaseModule(LightningModule):

@@ -2,7 +2,7 @@ from torch.utils.data import DataLoader
 
 from pytorch_lightning import LightningDataModule
 
-from minimal_diffusion.dataset import MinimalDiffusionDataset
+from diffusion_world.dataset import MinimalDiffusionDataset
 
 
 class Datamodule(LightningDataModule):

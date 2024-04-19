@@ -3,8 +3,8 @@ from fire import Fire
 
 import pytorch_lightning as pl
 
-from minimal_diffusion.datamodule import Datamodule
-from minimal_diffusion.models import DDPM, D3PM
+from diffusion_world.datamodule import Datamodule
+from diffusion_world.models import DDPM, D3PM
 
 
 def main(

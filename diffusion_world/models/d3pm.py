@@ -7,8 +7,8 @@ from tqdm import tqdm
 
 import torch
 import torch.nn.functional as F
-from minimal_diffusion.models.basemodule import BaseModule
-from minimal_diffusion.diff_utils import BetaScheduler
+from diffusion_world.models.basemodule import BaseModule
+from diffusion_world.diff_utils import BetaScheduler
 
 
 class D3PM(BaseModule):
